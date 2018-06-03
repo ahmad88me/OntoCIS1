@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Category" ; /*classes style*/
+	"http://www.semanticweb.org/lsarni/ontologies/competencies" -> "http://www.semanticweb.org/lsarni/ontologies" [ label = "owl:imports" ];
+	"NULL" -> "base:Category" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "http://www.semanticweb.org/lsarni/ontologies#partOf" [ label = "owl:onProperty" ];
+
+}
