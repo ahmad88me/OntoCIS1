@@ -1,0 +1,7 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Professor" "base:Person" ; /*classes style*/
+	"base:Professor" -> "base:Person" [ label = "rdfs:subClassOf" ];
+
+}
