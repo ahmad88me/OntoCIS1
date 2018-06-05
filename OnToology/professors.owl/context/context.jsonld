@@ -1,0 +1,49 @@
+{
+  "@context" : {
+    "Professor" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#Professor"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "hasEducationLevel" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#hasEducationLevel",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Nationality" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#Nationality"
+    },
+    "Person" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#Person"
+    },
+    "hasNationality" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#hasNationality",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "surname" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#surname",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Education_Level" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#Education_Level"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isExperienced" : {
+      "@id" : "http://www.semanticweb.org/lsarni/ontologies/professors#isExperienced",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }
+}
